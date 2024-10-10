@@ -1,0 +1,423 @@
+{
+  "necklaces": [
+    {
+      "id": "1",
+      "productName": "Dainty Name Necklace with Vintage Flower",
+      "description": "A beautiful dainty name necklace featuring a vintage flower design. Perfect for personalizing your style.",
+      "price": "Rs. 1,199",
+      "rating": 4.5,
+      "reviewsCount": 41,
+      "colorOptions": [
+        "Black",
+        "Coral",
+        "Mint Blue",
+        "Red",
+        "Light red",
+        "Purple"
+      ],
+
+      "deliveryTime": "9-12 business days",
+      "details": {
+        "goldPlating": "22K Gold plated with the best polish available in the market.",
+        "material": "Highest grade of Birla brass",
+        "waterResistant": "Can withstand normal splashes of water",
+        "measurements": {
+          "length": "18 inches with adjustable loops (kadis)"
+        },
+        "qualityGuarantee": "We provide a 90 days warranty wherein normal splashes of water will not affect the shine of the product.",
+        "productionTime": "It takes us 7-8 business days (excluding Sat-Sun) to make the product as we handle it with care and post quality check, we ship the product."
+      },
+      "tags": [
+        "best name necklace",
+        "high quality name necklace",
+        "personalised necklace",
+        "customised necklace",
+        "good quality personalised necklace",
+        "classic name necklace",
+        "my name necklace",
+        "waterproof name necklace",
+        "anti-tarnish name necklace",
+        "tarnish free name necklace"
+      ],
+      "careGuide": {
+        "careInstructions": [
+          "KEEP AWAY FROM MOISTURE: Avoid moisture sources like face mists, perfumes, and moisturizers. Do not wear jewelry while bathing or exercising, and avoid using chemicals for cleaning.",
+          "STORE THEM CAREFULLY: Store jewelry in separate zip locks to prevent rubbing and discoloration. Use a soft cloth or cotton to gently wipe after use.",
+          "AVOID CONTINUOUS USAGE: Give your jewelry a break to prevent wear and tear on the metal or stones."
+        ]
+      },
+      "images": {
+        "mainImage": "/img/personalized/Necklace/vitage_flower/flower1.jpg",
+        "additionalImages": [
+          "/img/personalized/Necklace/vitage_flower/flower2.jpg",
+          "/img/personalized/Necklace/vitage_flower/flower3.jpg",
+          "/img/personalized/Necklace/vitage_flower/flower4.jpg",
+          "/img/personalized/Necklace/vitage_flower/flower5.jpg",
+          "/img/personalized/Necklace/vitage_flower/flower6.jpg",
+          "/img/personalized/Necklace/vitage_flower/flower7.jpg"
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "productName": "Customised Cuboid Bar Name Necklace",
+      "description": "A customised cuboid bar name necklace that can be engraved on all four sides. Perfect for personalizing your style.",
+      "price": "Rs. 999",
+      "rating": 4.8,
+      "reviewsCount": 364,
+      "colorOptions": ["Gold", "Rose Gold", "Silver"],
+      "deliveryTime": "9-12 business days",
+      "details": {
+        "goldPlating": "22K Gold plated with the best polish available in the market.",
+        "material": "Highest grade of Birla brass",
+        "waterResistant": "Can withstand normal splashes of water",
+        "measurements": {
+          "length": "18 inches with adjustable loops (kadis)",
+          "height": "4 cms"
+        },
+        "qualityGuarantee": "We provide a 90 days warranty wherein normal splashes of water will not affect the shine of the product.",
+        "productionTime": "It takes us 4-5 working days to make the product as we handle it with care and post quality check, we ship the product."
+      },
+      "giftingInformation": {
+        "perfectFor": [
+          "Anniversary",
+          "Birthday",
+          "Gift for Special One",
+          "Proposal Gift"
+        ],
+        "description": "Looking for the perfect gift? We’ve got you covered. This is perfect for gifting, be it any occasion."
+      },
+      "careGuide": {
+        "careInstructions": [
+          "KEEP AWAY FROM MOISTURE: Avoid moisture sources like face mists, perfumes, and moisturizers. Do not wear jewelry while bathing or exercising, and avoid using chemicals for cleaning.",
+          "STORE THEM CAREFULLY: Store jewelry in separate zip locks to prevent rubbing and discoloration. Use a soft cloth or cotton to gently wipe after use.",
+          "AVOID CONTINUOUS USAGE: Give your jewelry a break to prevent wear and tear on the metal or stones."
+        ]
+      },
+      "images": {
+        "mainImage": "/img/personalized/Necklace/cubid/cubid1.jpg",
+        "additionalImages": [
+          "/img/personalized/Necklace/cubid/cubid2.jpg",
+          "/img/personalized/Necklace/cubid/cubid3.jpg",
+          "/img/personalized/Necklace/cubid/cubid4.jpg",
+          "/img/personalized/Necklace/cubid/cubid5.jpg",
+          "/img/personalized/Necklace/cubid/cubid6.jpg",
+          "/img/personalized/Necklace/cubid/cubid7.jpg"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "productName": "Signature Style Name Necklace with Stud",
+      "description": "A signature style name necklace with a stud, perfect for personalizing your style. The perfect gift for any occasion.",
+      "price": "Rs. 1,199",
+      "rating": 5,
+      "reviewsCount": 33,
+      "colorOptions": ["22k Gold", "22k Rose Gold", "Silver"],
+
+      "deliveryTime": "10-12 business days",
+      "details": {
+        "goldPlating": "22K Gold plated with the best polish available in the market.",
+        "material": "Highest grade of Birla brass",
+        "waterResistant": "Can withstand normal splashes of water",
+        "measurements": {
+          "length": "18 inches with adjustable loops (kadis)"
+        },
+        "qualityGuarantee": "We provide a 90 days warranty wherein normal splashes of water will not affect the shine of the product.",
+        "productionTime": "It takes us 7-8 business days (excluding Sat-Sun) to make the product as we handle it with care and post quality check, we ship the product."
+      },
+      "tags": [
+        "best name necklace",
+        "high quality name necklace",
+        "personalised necklace",
+        "customised necklace",
+        "good quality personalised necklace",
+        "classic name necklace",
+        "my name necklace",
+        "waterproof name necklace",
+        "anti-tarnish name necklace",
+        "tarnish free name necklace"
+      ],
+      "careGuide": {
+        "careInstructions": [
+          "KEEP AWAY FROM MOISTURE: Avoid moisture sources like face mists, perfumes, and moisturizers. Do not wear jewelry while bathing or exercising, and avoid using chemicals for cleaning.",
+          "STORE THEM CAREFULLY: Store jewelry in separate zip locks to prevent rubbing and discoloration. Use a soft cloth or cotton to gently wipe after use.",
+          "AVOID CONTINUOUS USAGE: Give your jewelry a break to prevent wear and tear on the metal or stones."
+        ]
+      },
+      "images": {
+        "mainImage": "/img/personalized/Necklace/signature/sign1.jpg",
+        "additionalImages": [
+          "/img/personalized/Necklace/signature/sign2.jpg",
+          "/img/personalized/Necklace/signature/sign3.jpg",
+          "/img/personalized/Necklace/signature/sign4.jpg",
+          "/img/personalized/Necklace/signature/sign5.jpg",
+          "/img/personalized/Necklace/signature/sign6.jpg"
+        ]
+      }
+    },
+
+    {
+      "id": "4",
+      "productName": "Personalised Avon Name Necklace",
+      "description": "A personalised Avon name necklace, perfect for personalizing your style. The perfect gift for any occasion.",
+      "price": "Rs. 1,199",
+      "rating": 4.3,
+      "reviewsCount": 33,
+      "colorOptions": ["22k Gold", "22k Rose Gold", "Silver"],
+
+      "deliveryTime": "10-12 business days",
+      "details": {
+        "goldPlating": "22K Gold plated with the best polish available in the market.",
+        "material": "Highest grade of Birla brass",
+        "waterResistant": "Can withstand normal splashes of water",
+        "measurements": {
+          "length": "18 inches with adjustable loops (kadis)"
+        },
+        "qualityGuarantee": "We provide a 90 days warranty wherein normal splashes of water will not affect the shine of the product.",
+        "productionTime": "It takes us 7-8 business days (excluding Sat-Sun) to make the product as we handle it with care and post quality check, we ship the product."
+      },
+      "tags": [
+        "best name necklace",
+        "high quality name necklace",
+        "personalised necklace",
+        "customised necklace",
+        "good quality personalised necklace",
+        "classic name necklace",
+        "my name necklace",
+        "waterproof name necklace",
+        "anti-tarnish name necklace",
+        "tarnish free name necklace"
+      ],
+      "careGuide": {
+        "careInstructions": [
+          "KEEP AWAY FROM MOISTURE: Avoid moisture sources like face mists, perfumes, and moisturizers. Do not wear jewelry while bathing or exercising, and avoid using chemicals for cleaning.",
+          "STORE THEM CAREFULLY: Store jewelry in separate zip locks to prevent rubbing and discoloration. Use a soft cloth or cotton to gently wipe after use.",
+          "AVOID CONTINUOUS USAGE: Give your jewelry a break to prevent wear and tear on the metal or stones."
+        ]
+      },
+      "images": {
+        "mainImage": "/img/personalized/Necklace/Avon/avon1.jpg",
+        "additionalImages": [
+          "/img/personalized/Necklace/Avon/avon2.jpg",
+          "/img/personalized/Necklace/Avon/avon3.jpg",
+          "/img/personalized/Necklace/Avon/avon4.jpg",
+          "/img/personalized/Necklace/Avon/avon5.jpg",
+          "/img/personalized/Necklace/Avon/avon5.jpg"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "productName": "Enamel Name Necklace",
+      "description": "A personalised enamel name necklace, perfect for personalizing your style. The perfect gift for any occasion.",
+      "price": "Rs. 1,299",
+      "rating": 5,
+      "reviewsCount": 0,
+      "colorOptions": [
+        "Coral",
+        "Light red",
+        "Lilac Mauve",
+        "Black",
+        "Dark Green",
+        "Red",
+        "Sky Blue",
+        "Pearl White",
+        "Fern Green",
+        "Bright red",
+        "Purple"
+      ],
+      "quantity": 1,
+      "deliveryTime": "10-12 business days",
+      "details": {
+        "goldPlating": "22K Gold plated with the best polish available in the market.",
+        "material": "Highest grade of Birla brass",
+        "waterResistant": "Can withstand normal splashes of water",
+        "measurements": {
+          "length": "18 inches with adjustable loops (kadis)"
+        },
+        "qualityGuarantee": "We provide a 90 days warranty wherein normal splashes of water will not affect the shine of the product.",
+        "productionTime": "It takes us 7-8 business days (excluding Sat-Sun) to make the product as we handle it with care and post quality check, we ship the product."
+      },
+      "tags": [
+        "best name necklace",
+        "high quality name necklace",
+        "personalised necklace",
+        "customised necklace",
+        "good quality personalised necklace",
+        "classic name necklace",
+        "my name necklace",
+        "waterproof name necklace",
+        "anti-tarnish name necklace",
+        "tarnish free name necklace"
+      ],
+      "careGuide": {
+        "careInstructions": [
+          "KEEP AWAY FROM MOISTURE: Avoid moisture sources like face mists, perfumes, and moisturizers. Do not wear jewelry while bathing or exercising, and avoid using chemicals for cleaning.",
+          "STORE THEM CAREFULLY: Store jewelry in separate zip locks to prevent rubbing and discoloration. Use a soft cloth or cotton to gently wipe after use.",
+          "AVOID CONTINUOUS USAGE: Give your jewelry a break to prevent wear and tear on the metal or stones."
+        ]
+      },
+      "images": {
+        "mainImage": "/img/personalized/Necklace/Ename/name1.jpg",
+        "additionalImages": [
+          "/img/personalized/Necklace/Ename/name2.jpg",
+          "/img/personalized/Necklace/Ename/name3.jpg",
+          "/img/personalized/Necklace/Ename/name4.jpg",
+          "/img/personalized/Necklace/Ename/name5.jpg"
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "productName": "Personalised Beaded Rainbow Kids Enamel Name Necklace",
+      "description": "A vibrant and colorful beaded rainbow kids enamel name necklace, perfect for personalizing your little one's style.",
+      "price": "Rs. 1,399",
+      "rating": 3.5,
+      "reviewsCount": 14,
+      "colorOptions": [
+        "Light red",
+        "Coral",
+        "Sunrise Yellow",
+        "Fern Green",
+        "Lilac Mauve"
+      ],
+      "quantity": 1,
+      "deliveryTime": "10-12 business days",
+      "details": {
+        "goldPlating": "22K Gold plated with the best polish available in the market.",
+        "material": "Highest grade of Birla brass",
+        "waterResistant": "Can withstand normal splashes of water",
+        "measurements": {
+          "length": "18 inches with adjustable loops (kadis)"
+        },
+        "qualityGuarantee": "We provide a 90 days warranty wherein normal splashes of water will not affect the shine of the product.",
+        "productionTime": "It takes us 7-8 business days (excluding Sat-Sun) to make the product as we handle it with care and post quality check, we ship the product."
+      },
+      "tags": [
+        "best name necklace",
+        "high quality name necklace",
+        "personalised necklace",
+        "customised necklace",
+        "good quality personalised necklace",
+        "classic name necklace",
+        "my name necklace",
+        "waterproof name necklace",
+        "anti-tarnish name necklace",
+        "tarnish free name necklace"
+      ],
+      "careGuide": {
+        "careInstructions": [
+          "KEEP AWAY FROM MOISTURE: Avoid moisture sources like face mists, perfumes, and moisturizers. Do not wear jewelry while bathing or exercising, and avoid using chemicals for cleaning.",
+          "STORE THEM CAREFULLY: Store jewelry in separate zip locks to prevent rubbing and discoloration. Use a soft cloth or cotton to gently wipe after use.",
+          "AVOID CONTINUOUS USAGE: Give your jewelry a break to prevent wear and tear on the metal or stones."
+        ]
+      },
+      "images": {
+        "mainImage": "/img/personalized/Necklace/kids_enamal/name1.jpg",
+        "additionalImages": [
+          "/img/personalized/Necklace/kids_enamal/name2.jpg",
+          "/img/personalized/Necklace/kids_enamal/name3.jpg",
+          "/img/personalized/Necklace/kids_enamal/name4.jpg",
+          "/img/personalized/Necklace/kids_enamal/name5.jpg",
+          "/img/personalized/Necklace/kids_enamal/name6.jpg"
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "productName": "Gold Chunky Initial Statement Necklace",
+      "description": "Make a bold statement with your initials with this high-quality, durable Gold Chunky Initial Statement Necklace, expertly crafted from stainless steel.",
+      "price": "Rs. 1,199",
+      "rating": 4.5,
+      "reviewsCount": 33,
+      "colorOptions": ["Gold"],
+
+      "deliveryTime": "10-12 business days",
+      "details": {
+        "goldPlating": "22K Gold plated with the best polish available in the market.",
+        "material": "Stainless Steel",
+        "waterResistant": "Can withstand normal splashes of water",
+        "measurements": {
+          "length": "18 inches (adjustable)"
+        },
+        "qualityGuarantee": "We provide a 90 days warranty wherein normal splashes of water will not affect the shine of the product.",
+        "productionTime": "It takes us 7-8 business days (excluding Sat-Sun) to make the product as we handle it with care and post quality check, we ship the product."
+      },
+      "tags": [
+        "initial necklace",
+        "statement necklace",
+        "chunky necklace",
+        "durable necklace",
+        "high quality necklace"
+      ],
+      "careGuide": {
+        "careInstructions": [
+          "KEEP AWAY FROM MOISTURE: Avoid moisture sources like face mists, perfumes, and moisturizers. Do not wear jewelry while bathing or exercising, and avoid using chemicals for cleaning.",
+          "STORE THEM CAREFULLY: Store jewelry in separate zip locks to prevent rubbing and discoloration. Use a soft cloth or cotton to gently wipe after use.",
+          "AVOID CONTINUOUS USAGE: Give your jewelry a break to prevent wear and tear on the metal or stones."
+        ]
+      },
+      "images": {
+        "mainImage": "/img/personalized/Necklace/GoldChunky/name1.jpg",
+        "additionalImages": [
+          "/img/personalized/Necklace/GoldChunky/name2.jpg",
+          "/img/personalized/Necklace/GoldChunky/name3.jpg",
+          "/img/personalized/Necklace/GoldChunky/name4.jpg",
+          "/img/personalized/Necklace/GoldChunky/name5.jpg",
+          "/img/personalized/Necklace/GoldChunky/name6.jpg"
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "productName": "Personalized Beaded Rainbow Kids Necklace",
+      "description": "A fun and colorful personalized beaded rainbow kids necklace, ideal for any child.",
+      "price": "Rs. 1,199",
+      "rating": 4.8,
+      "reviewsCount": 33,
+      "colorOptions": ["22k Gold", "22k Rose Gold", "Silver"],
+
+      "deliveryTime": "10-12 business days",
+      "details": {
+        "goldPlating": "22K Gold plated with the best polish available in the market.",
+        "material": "Highest grade of Birla brass",
+        "waterResistant": "Can withstand normal splashes of water",
+        "measurements": {
+          "length": "16 inches with adjustable loops (kadis)"
+        },
+        "qualityGuarantee": "We provide a 90 days warranty wherein normal splashes of water will not affect the shine of the product.",
+        "productionTime": "It takes us 7-8 business days (excluding Sat-Sun) to make the product as we handle it with care and post quality check, we ship the product."
+      },
+      "tags": [
+        "best name necklace",
+        "high quality name necklace",
+        "personalised necklace",
+        "customised necklace",
+        "good quality personalised necklace",
+        "classic name necklace",
+        "my name necklace",
+        "waterproof name necklace",
+        "anti-tarnish name necklace",
+        "tarnish free name necklace"
+      ],
+      "careGuide": {
+        "careInstructions": [
+          "KEEP AWAY FROM MOISTURE: Avoid moisture sources like face mists, perfumes, and moisturizers. Do not wear jewelry while bathing or exercising, and avoid using chemicals for cleaning.",
+          "STORE THEM CAREFULLY: Store jewelry in separate zip locks to prevent rubbing and discoloration. Use a soft cloth or cotton to gently wipe after use.",
+          "AVOID CONTINUOUS USAGE: Give your jewelry a break to prevent wear and tear on the metal or stones."
+        ]
+      },
+      "images": {
+        "mainImage": "/img/personalized/Necklace/kids_enamal/name1.jpg",
+        "additionalImages": [
+          "/img/personalized/Necklace/kids_enamal/name2.jpg",
+          "/img/personalized/Necklace/kids_enamal/name3.jpg",
+          "/img/personalized/Necklace/kids_enamal/name4.jpg",
+          "/img/personalized/Necklace/kids_enamal/name5.jpg",
+          "/img/personalized/Necklace/kids_enamal/name6.jpg"
+        ]
+      }
+    }
+  ]
+}
