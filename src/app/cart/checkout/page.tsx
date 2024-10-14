@@ -8,6 +8,7 @@ import { Select } from "@/components/ui/select";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CreditCard, Banknote, Wallet } from "lucide-react";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 
 export default function CheckoutPage() {
   const [useDifferentBillingAddress, setUseDifferentBillingAddress] =
@@ -52,78 +53,79 @@ export default function CheckoutPage() {
               </p>
             </CardContent>
           </Card>
-
-          <Card>
-            <CardHeader>
-              <CardTitle>Payment</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <p className="text-sm text-gray-500">
-                All transactions are secure and encrypted.
-              </p>
-              <div className="space-y-2">
-                <div className="flex items-center space-x-2 p-3 border rounded-md">
-                  <Wallet className="h-5 w-5" />
-                  <span>
-                    Razorpay Secure (Pay with UPI, Cards, Net Banking, etc.)
-                  </span>
-                </div>
-                <div className="flex items-center space-x-2 p-3 border rounded-md">
-                  <CreditCard className="h-5 w-5" />
-                  <span>Credit Card, Debit Cards</span>
-                </div>
-                <div className="flex items-center space-x-2 p-3 border rounded-md">
-                  <Banknote className="h-5 w-5" />
-                  <span>Cash on Delivery (COD)</span>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader>
-              <CardTitle>Billing address</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div className="flex items-center space-x-2">
-                <Checkbox id="same-address" />
-                <Label htmlFor="same-address">Same as shipping address</Label>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Checkbox
-                  id="different-address"
-                  checked={useDifferentBillingAddress}
-                  onCheckedChange={() =>
-                    setUseDifferentBillingAddress(!useDifferentBillingAddress)
-                  }
-                />
-                <Label htmlFor="different-address">
-                  Use a different billing address
-                </Label>
-              </div>
-              {useDifferentBillingAddress && (
-                <div className="space-y-4">
-                  <Select>
-                    <option>India</option>
-                  </Select>
-                  <div className="grid grid-cols-2 gap-4">
-                    <Input placeholder="First name" />
-                    <Input placeholder="Last name" />
+          <RadioGroup>
+            <Card>
+              <CardHeader>
+                <CardTitle>Payment</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <p className="text-sm text-gray-500">
+                  All transactions are secure and encrypted.
+                </p>
+                <div className="space-y-2">
+                  <div className="flex items-center space-x-2 p-3 border rounded-md">
+                    <RadioGroupItem value="simpl" id="simpl" />
+                    <Wallet className="h-5 w-5" />
+                    <span>
+                      Razorpay Secure (Pay with UPI, Cards, Net Banking, etc.)
+                    </span>
                   </div>
-                  <Input placeholder="Address" />
-                  <Input placeholder="Apartment, suite, etc. (optional)" />
-                  <div className="grid grid-cols-3 gap-4">
-                    <Input placeholder="City" />
+
+                  <div className="flex items-center space-x-2 p-3 border rounded-md">
+                    <RadioGroupItem value="cod" id="cod" />
+                    <Banknote className="h-5 w-5" />
+                    <span>Cash on Delivery (COD)</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </RadioGroup>
+          <RadioGroup
+            value={useDifferentBillingAddress ? "different" : "same"}
+            onValueChange={(value) =>
+              setUseDifferentBillingAddress(value === "different")
+            }
+          >
+            <Card>
+              <CardHeader>
+                <CardTitle>Billing address</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="flex items-center space-x-2">
+                  <RadioGroupItem value="same" id="same-address" />
+                  <Label htmlFor="same-address">Same as shipping address</Label>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <RadioGroupItem value="different" id="different-address" />
+
+                  <Label htmlFor="different-address">
+                    Use a different billing address
+                  </Label>
+                </div>
+                {useDifferentBillingAddress && (
+                  <div className="space-y-4">
                     <Select>
-                      <option>State</option>
+                      <option>India</option>
                     </Select>
-                    <Input placeholder="PIN code" />
+                    <div className="grid grid-cols-2 gap-4">
+                      <Input placeholder="First name" />
+                      <Input placeholder="Last name" />
+                    </div>
+                    <Input placeholder="Address" />
+                    <Input placeholder="Apartment, suite, etc. (optional)" />
+                    <div className="grid grid-cols-3 gap-4">
+                      <Input placeholder="City" />
+                      <Select>
+                        <option>State</option>
+                      </Select>
+                      <Input placeholder="PIN code" />
+                    </div>
+                    <Input placeholder="Phone (optional)" />
                   </div>
-                  <Input placeholder="Phone (optional)" />
-                </div>
-              )}
-            </CardContent>
-          </Card>
+                )}
+              </CardContent>
+            </Card>
+          </RadioGroup>
         </div>
 
         <div className="lg:col-span-1">
@@ -135,7 +137,7 @@ export default function CheckoutPage() {
               <div className="flex items-center space-x-4">
                 <div className="relative w-16 h-16 rounded-md overflow-hidden">
                   <Image
-                    src="/img/product/rings/bowring.jpg"
+                    src="/img/silverChains.jpg"
                     alt="Silver Heart's Paradise Ring"
                     layout="fill"
                     objectFit="cover"

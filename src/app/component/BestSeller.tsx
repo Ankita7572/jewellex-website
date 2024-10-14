@@ -25,93 +25,93 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
-    image: "/img/banner/bestseller.jpg",
+    image: "/img/rose_gold_pendant.jpg",
     rating: 4.7,
     reviews: 10,
     price: 4699,
     oldPrice: 8399,
-    title: "Studded cuff"
+    title: "Rose Gold Drop Wreath Pendant Set"
   },
   {
     id: 2,
-    image: "/img/banner/bracelet.jpg",
+    image: "/img/supple_bracelet.jpg",
     rating: 4.9,
     reviews: 278,
     price: 1199,
     oldPrice: 1999,
-    title: "Greenstone Cuff Bracelet"
+    title: "Rose Gold Supple Bracelet"
   },
   {
     id: 3,
-    image: "/img/banner/charm braceletes.jpg",
+    image: "/img/gold_anklet.jpg",
     rating: 4.9,
     reviews: 22,
     price: 1399,
     oldPrice: 2499,
-    title: "Create your own charm bracelet"
+    title: "Rose Gold Layered Queen's Anklet"
   },
   {
     id: 4,
-    image: "/img/banner/CLEARANCESALE.jpg",
+    image: "/img/fibonacci_ring.jpg",
     rating: 4.9,
     reviews: 231,
     price: 1699,
     oldPrice: 2799,
-    title: "Link chain cuff"
+    title: "Silver Fibonacci Ring For Him"
   },
   {
     id: 5,
-    image: "/img/banner/evileyeset.jpg",
+    image: "/img/blue_set.jpg",
     rating: 4.8,
     reviews: 132,
     price: 2399,
     oldPrice: 4799,
-    title: "Gold Evil Eye Clover Set"
+    title: "Rose Gold Blue Drop Set"
   },
   {
     id: 6,
-    image: "/img/banner/cuff.jpg",
+    image: "/img/queen_set.jpg",
     rating: 4.8,
     reviews: 132,
     price: 2399,
     oldPrice: 4799,
-    title: "Evil Eye Cuff with Magnetic Closure"
+    title: "Rose Gold Queen Of Dreams Set"
   },
   {
     id: 7,
-    image: "/img/cart/earcuffs.jpg",
-    rating: 4.8,
-    reviews: 132,
-    price: 2399,
-    oldPrice: 4799,
-    title: " Five Bar Ear Cuff"
+    image: "/img/supple_bracelet.jpg",
+    rating: 4.9,
+    reviews: 278,
+    price: 1199,
+    oldPrice: 1999,
+    title: "Rose Gold Supple Bracelet"
   },
   {
     id: 8,
-    image: "/img/banner/personalizedring.jpg",
-    rating: 4.8,
-    reviews: 132,
-    price: 2399,
-    oldPrice: 4799,
-    title: "Personalized Engraved Rings"
+    image: "/img/fibonacci_ring.jpg",
+    rating: 4.9,
+    reviews: 231,
+    price: 1699,
+    oldPrice: 2799,
+    title: "Silver Fibonacci Ring For Him"
   },
   {
     id: 9,
-    image: "/img/banner/earing.jpg",
-    rating: 4.8,
-    reviews: 132,
-    price: 2399,
-    oldPrice: 4799,
-    title: "Chic Link Studs"
+    image: "/img/rose_gold_pendant.jpg",
+    rating: 4.7,
+    reviews: 10,
+    price: 4699,
+    oldPrice: 8399,
+    title: "Rose Gold Drop Wreath Pendant Set"
   },
   {
     id: 10,
-    image: "/img/banner/holiday-edit.jpg",
-    rating: 4.8,
-    reviews: 132,
-    price: 2399,
-    oldPrice: 4799,
-    title: "Slithering Serpent Snake Cuff"
+    image: "/img/gold_anklet.jpg",
+    rating: 4.9,
+    reviews: 22,
+    price: 1399,
+    oldPrice: 2499,
+    title: "Rose Gold Layered Queen's Anklet"
   }
 ];
 
@@ -119,13 +119,13 @@ const BestSeller: React.FC = () => {
   const sliderRef = useRef<Slider | null>(null);
 
   const settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     speed: 900,
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 1024,

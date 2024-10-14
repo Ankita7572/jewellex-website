@@ -25,93 +25,93 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
-    image: "/img/personalized/Necklace/vitage_flower/flower1.jpg",
+    image: "/img/rose_gold_pendant.jpg",
     rating: 4.7,
     reviews: 10,
     price: 4699,
     oldPrice: 8399,
-    title: "Dainty Name Necklace with Vintage Flower"
+    title: "Rose Gold Drop Wreath Pendant Set"
   },
   {
     id: 2,
-    image: "/img/personalized/Necklace/cubid/cubid1.jpg",
+    image: "/img/supple_bracelet.jpg",
     rating: 4.9,
     reviews: 278,
     price: 1199,
     oldPrice: 1999,
-    title: "Customised Cuboid Bar Name Necklace"
+    title: "Rose Gold Supple Bracelet"
   },
   {
     id: 3,
-    image: "/img/personalized/Necklace/signature/sign1.jpg",
+    image: "/img/gold_anklet.jpg",
     rating: 4.9,
     reviews: 22,
     price: 1399,
     oldPrice: 2499,
-    title: "Signature Style Name Necklace with Stud"
+    title: "Rose Gold Layered Queen's Anklet"
   },
   {
     id: 4,
-    image: "/img/personalized/Necklace/Avon/avon1.jpg",
+    image: "/img/fibonacci_ring.jpg",
     rating: 4.9,
     reviews: 231,
     price: 1699,
     oldPrice: 2799,
-    title: "Personalised Avon Name Necklace"
+    title: "Silver Fibonacci Ring For Him"
   },
   {
     id: 5,
-    image: "/img/personalized/bracelet/chain/chain1.jpg",
+    image: "/img/blue_set.jpg",
     rating: 4.8,
     reviews: 132,
     price: 2399,
     oldPrice: 4799,
-    title: "Initial Link Chain Bracelet"
+    title: "Rose Gold Blue Drop Set"
   },
   {
     id: 6,
-    image: "/img/personalized/Necklace/cubid/cubid1.jpg",
+    image: "/img/queen_set.jpg",
     rating: 4.8,
     reviews: 132,
     price: 2399,
     oldPrice: 4799,
-    title: "Customised Laser Cut Name Cuff"
+    title: "Rose Gold Queen Of Dreams Set"
   },
   {
     id: 7,
-    image: "/img/personalized/bracelet/personalized/laser1.jpg",
-    rating: 4.8,
-    reviews: 132,
-    price: 2399,
-    oldPrice: 4799,
-    title: " Laser Cut Heart Kada"
+    image: "/img/supple_bracelet.jpg",
+    rating: 4.9,
+    reviews: 278,
+    price: 1199,
+    oldPrice: 1999,
+    title: "Rose Gold Supple Bracelet"
   },
   {
     id: 8,
-    image: "/img/banner/personalizedring.jpg",
-    rating: 4.8,
-    reviews: 132,
-    price: 2399,
-    oldPrice: 4799,
-    title: "Personalized Engraved Rings"
+    image: "/img/fibonacci_ring.jpg",
+    rating: 4.9,
+    reviews: 231,
+    price: 1699,
+    oldPrice: 2799,
+    title: "Silver Fibonacci Ring For Him"
   },
   {
     id: 9,
-    image: "/img/banner/mennecklace.jpg",
-    rating: 4.8,
-    reviews: 132,
-    price: 2399,
-    oldPrice: 4799,
-    title: " Cuboid Bar Necklace Men"
+    image: "/img/rose_gold_pendant.jpg",
+    rating: 4.7,
+    reviews: 10,
+    price: 4699,
+    oldPrice: 8399,
+    title: "Rose Gold Drop Wreath Pendant Set"
   },
   {
     id: 10,
-    image: "/img/banner/keychain.jpg",
-    rating: 4.8,
-    reviews: 132,
-    price: 2399,
-    oldPrice: 4799,
-    title: " Cuboid bar name keychain"
+    image: "/img/gold_anklet.jpg",
+    rating: 4.9,
+    reviews: 22,
+    price: 1399,
+    oldPrice: 2499,
+    title: "Rose Gold Layered Queen's Anklet"
   }
 ];
 
@@ -119,7 +119,7 @@ const ProductCarousel: React.FC = () => {
   const sliderRef = useRef<Slider | null>(null);
 
   const settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     speed: 900,
     slidesToShow: 4,

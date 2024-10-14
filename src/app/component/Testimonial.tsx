@@ -12,37 +12,35 @@ const testimonials = [
     name: "Virda",
     content:
       "A big shout out to you guys for improving my hubby's gifting tastes. Completely in love with my Necklace!",
-    image:
-      "/img/personalized/Necklace/vitage_flower/flower1.jpg?height=60&width=60",
+    image: "/img/queen_set.jpg",
     rating: 5
   },
   {
     name: "Harshika",
     content:
       "Never thought buying jewellery would be this easy, thanks for helping make my mom's birthday special.",
-    image: "/img/jewelCarousel/jew1.jpg?height=60&width=60",
+    image: "/img/blue_set.jpg",
     rating: 4
   },
   {
     name: "Priya",
     content:
-      "Gifted these necklace to my sister on her wedding and she loved them! I am obsessed with buying gifts from I BLAME BEADS.",
-    image:
-      "/img/personalized/Necklace/vitage_flower/flower2.jpg?height=60&width=60",
+      "Gifted these necklace to my sister on her wedding and she loved them! I am obsessed with buying gifts from Jewlllex.",
+    image: "/img/rose_gold_pendant.jpg",
     rating: 5
   },
   {
     name: "Anita",
     content:
-      "The quality of the jewelry is outstanding. I've received so many compliments on my new earings!",
-    image: "/img/jewelCarousel/jew2.jpg?height=60&width=60",
+      "The quality of the jewelry is outstanding. I've received so many compliments on my new supple Bracelet!",
+    image: "/img/supple_bracelet.jpg",
     rating: 5
   },
   {
     name: "Rahul",
     content:
       "Great customer service and fast delivery. Will definitely be a returning customer.",
-    image: "/img/personalized/Necklace/cubid/cubid1.jpg?height=60&width=60",
+    image: "/img/fibonacci_ring.jpg",
     rating: 4
   }
 ];

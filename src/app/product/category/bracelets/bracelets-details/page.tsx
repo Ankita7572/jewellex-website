@@ -1,17 +1,29 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import { ChevronLeft, ChevronRight, Star, Plus, Minus } from "lucide-react";
+import {
+  ChevronLeft,
+  ChevronRight,
+  Star,
+  Plus,
+  Minus,
+  ChevronDown,
+  ChevronUp
+} from "lucide-react";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 export default function Component() {
   const [currentImage, setCurrentImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
+  const [isDescriptionOpen, setIsDescriptionOpen] = useState(false);
+  const [isShippingOpen, setIsShippingOpen] = useState(false);
   const images = [
-    "/img/product/bracelets/charm.jpg",
-    "/img/product/bracelets/dainty.jpg",
-    "/img/product/bracelets/elephant.jpg",
-    "/img/product/bracelets/sparkling.jpg"
+    "/img/rose_gold_pendant.jpg",
+    "/img/rose_gold_pendant1.jpg",
+    "/img/rose_gold_pendant2.jpg",
+    "/img/rose_gold_pendant3.jpg"
   ];
 
   const nextImage = () => {
@@ -29,6 +41,9 @@ export default function Component() {
   const decreaseQuantity = () => {
     setQuantity((prev) => Math.max(1, prev - 1));
   };
+
+  const toggleDescription = () => setIsDescriptionOpen((prev) => !prev);
+  const toggleShipping = () => setIsShippingOpen((prev) => !prev);
 
   return (
     <div className="container mt-36 mx-auto px-4 py-8">
@@ -79,107 +94,117 @@ export default function Component() {
           </div>
         </div>
         <div className="space-y-4">
-          <h1 className="text-2xl font-bold">Heart Crystal Ring</h1>
-          <div className="flex items-center">
-            <div className="flex">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="h-5 w-5 fill-primary" />
-              ))}
+          <div className="grid  gap-8">
+            <div className="space-y-4">
+              <h1 className="text-2xl font-bold">Silver Rugged Ring For Him</h1>
+              <div className="flex items-center">
+                <div className="flex">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-5 w-5 fill-primary" />
+                  ))}
+                </div>
+                <span className="ml-2 text-sm text-gray-600">(4.8 | 55)</span>
+              </div>
+              <div className="text-2xl font-bold">
+                ₹1,699{" "}
+                <span className="text-lg font-normal line-through text-gray-500">
+                  ₹2,799
+                </span>
+              </div>
+              <p className="text-sm">Made with 925 Silver</p>
+              <div className="flex items-center space-x-4">
+                <div className="flex items-center border rounded">
+                  <Button
+                    onClick={decreaseQuantity}
+                    variant="ghost"
+                    size="icon"
+                  >
+                    <Minus className="h-4 w-4" />
+                  </Button>
+                  <span className="px-4 py-1">{quantity}</span>
+                  <Button
+                    onClick={increaseQuantity}
+                    variant="ghost"
+                    size="icon"
+                  >
+                    <Plus className="h-4 w-4" />
+                  </Button>
+                </div>
+              </div>
+              <div className=" flex">
+                <Link href="/cart/checkout" className="w-full mr-4">
+                  <Button className="w-full mr-4">Buy Now</Button>
+                </Link>
+                <Button variant="outline" className="w-full">
+                  Add to Cart
+                </Button>
+              </div>
+              <div className="border-t flex pt-4">
+                <Input placeholder="Enter 6 digit pincode" />
+                <Button className="w-full ml-5">CHECK</Button>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {["FLAT300", "COMBO50", "LOVE"].map((offer) => (
+                  <div key={offer} className="border rounded p-2 text-xs">
+                    {offer}
+                  </div>
+                ))}
+              </div>
             </div>
-            <span className="ml-2 text-sm text-gray-600">10 reviews</span>
-          </div>
-          <p className="text-2xl font-bold">Rs. 1,099</p>
-          <div className="space-y-2">
-            <p>
-              <strong>Plating:</strong> 22K Gold plated (Best polish available
-              in the market)
-            </p>
-            <p>
-              <strong>Material:</strong> Highest grade of Birla brass
-            </p>
-            <p>
-              <strong>Water Resistant:</strong> Can withstand normal splashes of
-              water
-            </p>
-          </div>
-          <p className="text-gray-700">
-            This adjustable Heart Crystal Ring is crafted with nickel-free
-            hypoallergenic brass and finished with 22K gold plating. The
-            anti-tarnish coating ensures long-lasting shine and durability. Make
-            a statement with this unique and eye-catching piece.
-          </p>
-          <div className="flex items-center space-x-4">
-            <div className="flex items-center border rounded">
-              <button
-                onClick={decreaseQuantity}
-                className="px-3 py-1 bg-gray-100 hover:bg-gray-200"
-              >
-                <Minus className="h-4 w-4" />
-              </button>
-              <span className="px-4 py-1">{quantity}</span>
-              <button
-                onClick={increaseQuantity}
-                className="px-3 py-1 bg-gray-100 hover:bg-gray-200"
-              >
-                <Plus className="h-4 w-4" />
-              </button>
+            <div className="space-y-4">
+              <div className="border-b pb-4">
+                <h2
+                  className="text-lg font-semibold flex justify-between items-center "
+                  onClick={toggleDescription}
+                >
+                  DESCRIPTION{" "}
+                  {isDescriptionOpen ? (
+                    <ChevronUp className="h-5 w-5" />
+                  ) : (
+                    <ChevronDown className="h-5 w-5" />
+                  )}
+                </h2>
+                {isDescriptionOpen && (
+                  <div className="mt-2 space-y-2">
+                    <p className="text-sm">
+                      This silver ring has a rhombus patterned band with a
+                      zircon set in the centre of the ring.
+                    </p>
+                    <ul className="list-disc list-inside space-y-1 text-sm">
+                      <li>925 Silver</li>
+                      <li>Perfect for sensitive skin</li>
+                      <li>Adjustable size to ensure no fitting issues</li>
+                      <li>Ring Diameter: 1.97 cm + Adjustable</li>
+                      <li>
+                        Comes with the GIVA Jewellery kit and authenticity
+                        certificate
+                      </li>
+                    </ul>
+                  </div>
+                )}
+              </div>
+              <div className="border-b pb-4">
+                <h2
+                  className="text-lg font-semibold flex justify-between items-center"
+                  onClick={toggleShipping}
+                >
+                  SHIPPING{" "}
+                  {isShippingOpen ? (
+                    <ChevronUp className="h-5 w-5" />
+                  ) : (
+                    <ChevronDown className="h-5 w-5" />
+                  )}
+                </h2>
+                {isShippingOpen && (
+                  <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+                    <li>Free express shipping</li>
+                    <li>No questions asked 30 days return policy</li>
+                    <li>6 month warranty</li>
+                    <li>Shipping internationally to 20+ countries</li>
+                  </ul>
+                )}
+              </div>
             </div>
-            <button className="bg-black text-white px-6 py-2 rounded hover:bg-primary-dark transition-colors">
-              Add to Cart
-            </button>
-            <Link href="/cart/checkout">
-              <button className="bg-gray-600 text-white px-6 py-2 rounded hover:bg-secondary-dark transition-colors">
-                Buy Now
-              </button>
-            </Link>
-          </div>
-          <div className="space-y-4 mt-8">
-            <h2 className="text-xl font-semibold">Product Details</h2>
-            <ul className="list-disc list-inside space-y-2">
-              <li>Delivery Time: 9-12 business days</li>
-              <li>
-                Measurements: Length 18 inches with adjustable loops (kadis)
-              </li>
-              <li>
-                Quality Guarantee: 90 days warranty (normal splashes of water
-                will not affect shine)
-              </li>
-              <li>
-                Production Time: 7-8 business days (excluding Sat-Sun) for
-                careful handling and quality check
-              </li>
-            </ul>
-          </div>
-          <div className="space-y-4 mt-8">
-            <h2 className="text-xl font-semibold">Care Guide</h2>
-            <div className="space-y-2">
-              <h3 className="font-semibold">KEEP AWAY FROM MOISTURE</h3>
-              <p className="text-sm text-gray-700">
-                Avoid exposure to moisture sources like hair sprays, perfumes,
-                and moisturizers. Do not wear while bathing or exercising. Avoid
-                cleaning with chemicals to prevent tarnishing.
-              </p>
-              <h3 className="font-semibold">STORE THEM CAREFULLY</h3>
-              <p className="text-sm text-gray-700">
-                Store jewelry in separate zip locks to prevent rubbing and
-                discoloration. Avoid folding layered pendants, earrings,
-                tassels, and pom pom jewelry. Gently wipe with a soft cloth
-                after each use.
-              </p>
-              <h3 className="font-semibold">AVOID CONTINUOUS USAGE</h3>
-              <p className="text-sm text-gray-700">
-                Give your jewelry regular breaks to prevent premature wear and
-                tear of metal or stones.
-              </p>
-            </div>
-          </div>
-          <div className="mt-8">
-            <p className="text-sm text-gray-500">
-              Tags: Best name necklace, high quality name necklace, personalised
-              necklace, customised necklace, good quality personalised necklace,
-              classic name necklace, my name necklace, waterproof name necklace,
-              anti-tarnish name necklace, tarnish free name necklace
-            </p>
           </div>
         </div>
       </div>

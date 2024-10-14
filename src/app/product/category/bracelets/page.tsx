@@ -17,8 +17,8 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
-    name: "Dainty Name Necklace with Vintage Flower",
-    image: "/img/personalized/Necklace/vitage_flower/flower1.jpg",
+    name: "Rose Gold Supple Bracelet",
+    image: "/img/supple_bracelet.jpg",
     rating: 4.9,
     reviews: 19,
     price: 2499,
@@ -27,8 +27,8 @@ const products: Product[] = [
   },
   {
     id: 2,
-    name: "RCustomised Cuboid Bar Name Necklace",
-    image: "/img/personalized/Necklace/cubid/cubid1.jpg",
+    name: "Rose Gold Layered Queen's Anklet",
+    image: "/img/gold_anklet.jpg",
     rating: 4.8,
     reviews: 37,
     price: 2499,
@@ -36,8 +36,8 @@ const products: Product[] = [
   },
   {
     id: 3,
-    name: "Signature Style Name Necklace with Stud",
-    image: "/img/personalized/Necklace/signature/sign1.jpg",
+    name: "Rose Gold Drop Wreath Pendant Set",
+    image: "/img/rose_gold_pendant.jpg",
     rating: 4.9,
     reviews: 16,
     price: 2399,
@@ -45,8 +45,8 @@ const products: Product[] = [
   },
   {
     id: 4,
-    name: "Personalised Avon Name Necklace",
-    image: "/img/personalized/Necklace/Avon/avon1.jpg",
+    name: "Silver Fibonacci Ring For Him",
+    image: "/img/fibonacci_ring.jpg",
     rating: 4.7,
     reviews: 42,
     price: 2399,
@@ -61,7 +61,7 @@ export default function Component() {
         <Image
           width={1280}
           height={400}
-          src="/img/banner/bracelet.jpg"
+          src="/img/banner1.jpg"
           alt="Personalised Jewelry Banner"
           className="w-full h-[28rem] max-md:h-96    shadow-md"
           style={{

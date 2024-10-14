@@ -43,29 +43,20 @@ interface JewelleryItem {
 export default function JewelleryGrid() {
   const jewelleryItems: JewelleryItem[] = [
     {
-      imageSrc: "/img/essential/essential1.jpg",
+      imageSrc: "/img/essential1.jpg",
       altText: "Gold necklaces with lab diamonds",
       specialOffer: "20% OFF"
     },
     {
-      imageSrc: "/img/essential/essential2.jpg",
+      imageSrc: "/img/essential2.jpg",
       altText: "Silver jewelry pieces"
-    },
-    {
-      imageSrc: "/img/essential/essential3.jpg",
-      altText: "Rose gold jewelry",
-      specialOffer: "20% OFF"
-    },
-    {
-      imageSrc: "/img/essential/essential4.jpg",
-      altText: "Platinum jewelry"
     }
   ];
 
   return (
     <div className="max-w-3xl mt-16 mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-center mb-8">
-        I Blame Beads Essentials
+        Jewellex Essentials
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
         {jewelleryItems.map((item, index) => (

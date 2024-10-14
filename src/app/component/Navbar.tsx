@@ -38,105 +38,293 @@ export default function Navbar() {
 
   const menuItems: MenuItem[] = [
     {
-      title: "Personalized",
-      items: [
-        { title: "Necklace", link: "/product/personalized/necklace" },
-        { title: "Keychain", link: "/product/personalized/keychain" },
-        { title: "Ring", link: "/product/personalized/ring" },
-        { title: "Bracelet", link: "/product/personalized/bracelet" }
-      ]
-    },
-    {
       title: "Shop by Category",
       items: [
-        { title: "Earrings", link: "/product/category/earring" },
-        { title: "Cuff", link: "/product/category/cuff" },
-        { title: "Necklaces", link: "/product/category/necklaces" },
-        { title: "Rings", link: "/product/category/rings" },
-        { title: "Bracelets", link: "/product/category/bracelets" },
-        { title: "Earcuffs", link: "/product/category/earcuffs" },
         {
-          title: "Charm Belt Bracelet",
-          link: "/product/category/charm-belt-bracelet"
-        },
-        { title: "Haircuffs", link: "/product/category/haircuffs" },
-        { title: "Wrap Bracelet", link: "/product/category/wrap-bracelet" }
-      ]
-    },
-    {
-      title: "Gift for kids",
-      link: "/product/gift-for-kids"
-    },
-    {
-      title: "IBB CELEBS",
-      link: "/product/ibb-celebs"
-    },
-    {
-      title: "Collections",
-      items: [
-        { title: "Sunset Sparkle", link: "/product/collection/sunset-sparkle" },
-        { title: "The Holiday Edit", link: "/product/collection/holiday-edit" },
-        {
-          title: "Opulent Harmony",
-          link: "/product/collection/opulent-harmony"
-        },
-        {
-          title: "Pearl Collection",
-          link: "/product/collection/pearl-collection"
-        },
-        { title: "Midas", link: "/product/collection/midas" },
-        { title: "Multi-Color", link: "/product/collection/multi-color" },
-        {
-          title: "Mother of Pearl",
-          link: "/product/collection/mother-of-pearl"
-        },
-        {
-          title: "Evil Eye",
+          title: "Earrings",
           subItems: [
             {
-              name: "Evil Eye Necklace",
-              link: "/product/collection/evil-eye/evil-eye-necklace"
+              name: "All Earrings",
+              link: "/product/category/earring"
             },
             {
-              name: "Evil Eye Ring",
-              link: "/product/collection/evil-eye/evil-eye-ring"
+              name: "Shop By Metal",
+              link: "/product/category/earring/shop-by-metal"
             },
             {
-              name: "Evil Eye Bracelet",
-              link: "/product/collection/evil-eye/evil-eye-bracelet"
+              name: "Shop by Colour",
+              link: "/product/category/earring"
+            },
+            {
+              name: "Shop by Style",
+              link: "/product/category/earring/shop-by-metal"
             }
           ]
         },
-        { title: "Gift Hamper", link: "/product/gift-hamper" }
+
+        {
+          title: "Necklaces",
+          subItems: [
+            {
+              name: "All Nacklaces",
+              link: "/product/category/necklaces"
+            },
+            {
+              name: "Shop By Metal",
+              link: "/product/category/necklaces"
+            },
+            {
+              name: "Shop by Colour",
+              link: "/product/category/necklaces"
+            },
+            {
+              name: "Shop by Style",
+              link: "/product/category/necklaces"
+            }
+          ]
+        },
+        {
+          title: "Other Categories",
+          subItems: [
+            {
+              name: "All ",
+              link: "/product/category/bracelets"
+            },
+            {
+              name: "Jewellery Sets",
+              link: "/product/category/necklaces"
+            },
+            {
+              name: "Personalised",
+              link: "/product/category/bracelets"
+            },
+            {
+              name: "Watch Charms",
+              link: "/product/category/bracelets"
+            },
+            {
+              name: "Mangalsutras",
+              link: "/product/category/necklaces"
+            },
+            {
+              name: "Chains",
+              link: "/product/category/bracelets"
+            },
+            {
+              name: "Toe Rings",
+              link: "/product/category/bracelets"
+            },
+            {
+              name: "Nose Pins & Rings",
+              link: "/product/category/bracelets"
+            },
+            {
+              name: "Kids",
+              link: "/product/category/bracelets"
+            }
+          ]
+        },
+        {
+          title: "Rings",
+          subItems: [
+            {
+              name: "All Rings",
+              link: "/product/category/rings"
+            },
+            {
+              name: "Shop By Metal",
+              link: "/product/category/necklaces"
+            },
+            {
+              name: "Shop by Colour",
+              link: "/product/category/rings"
+            },
+            {
+              name: "Shop by Style",
+              link: "/product/category/rings"
+            }
+          ]
+        },
+        {
+          title: "Bracelets",
+          subItems: [
+            {
+              name: "All Bracelets",
+              link: "/product/category/bracelets"
+            },
+            {
+              name: "Shop By Metal",
+              link: "/product/category/bracelets"
+            },
+            {
+              name: "Shop by Colour",
+              link: "/product/category/bracelets"
+            },
+            {
+              name: "Shop by Style",
+              link: "/product/category/bracelets"
+            }
+          ]
+        },
+
+        { title: "Anklets", link: "/product/category/bracelets" }
       ]
     },
     {
-      title: "Shop",
+      title: "Gold with Lab Diamonds",
+      link: "/product/category/earring/shop-by-metal"
+    },
+    {
+      title: "Latest Collections",
       items: [
         {
-          title: "CLEARANCE SALE",
+          title: "Magic of Tradition",
+          link: "/product/category/bracelets"
+        },
+        {
+          title: "The Bhumi Collection",
+          link: "/product/category/bracelets"
+        },
+        {
+          title: "Wings of Wonder",
+          link: "/product/category/bracelets"
+        },
+        {
+          title: "Cherry Pop Collection",
+          link: "/product/category/bracelets"
+        },
+        {
+          title: "Love in Paris",
+          link: "/product/category/bracelets"
+        },
+        {
+          title: "Convertible Collection",
+          link: "/product/category/bracelets"
+        },
+        {
+          title: "Just Arrived",
+          link: "/product/category/bracelets"
+        }
+      ]
+    },
+    {
+      title: "Men's Jewellery",
+      items: [
+        { title: "All", link: "/product/category/bracelets" },
+        { title: "Rings", link: "/product/category/bracelets" },
+        {
+          title: "Pendants",
+          link: "/product/category/bracelets"
+        },
+        {
+          title: "Bracetets",
+          link: "/product/category/bracelets"
+        },
+        { title: "Chains", link: "/product/category/earring" }
+      ]
+    },
+    {
+      title: "Gift Store",
+      items: [
+        {
+          title: "Jewellex Gift Store",
           link: "/product/product-shop/clearance-sale"
         },
         {
-          title: "Gift for Men",
+          title: "Shop By Occassion",
           subItems: [
             {
-              name: "Men Rings",
+              name: "Wedding",
               link: "/product/product-shop/gift-for-men/men-rings"
             },
             {
-              name: "Men Necklace",
+              name: "Birthday",
+              link: "/product/product-shop/gift-for-men/men-necklace"
+            },
+            {
+              name: "Anniversary",
+              link: "/product/product-shop/gift-for-men/men-rings"
+            },
+            {
+              name: "Just Beacause",
+              link: "/product/product-shop/gift-for-men/men-necklace"
+            },
+            {
+              name: "Say Thanks",
+              link: "/product/product-shop/gift-for-men/men-rings"
+            }
+          ]
+        },
+        {
+          title: "Shop By Theme",
+          subItems: [
+            {
+              name: "Evil Eye",
+              link: "/product/product-shop/gift-for-men/men-rings"
+            },
+            {
+              name: "Nature Inspired",
+              link: "/product/product-shop/gift-for-men/men-necklace"
+            },
+            {
+              name: "Butterfly",
+              link: "/product/product-shop/gift-for-men/men-rings"
+            },
+            {
+              name: "Romantic",
+              link: "/product/product-shop/gift-for-men/men-necklace"
+            },
+            {
+              name: "Zodiac",
+              link: "/product/product-shop/gift-for-men/men-rings"
+            },
+            {
+              name: "Personalised",
+              link: "/product/product-shop/gift-for-men/men-necklace"
+            },
+            {
+              name: "Spiritual",
               link: "/product/product-shop/gift-for-men/men-necklace"
             }
           ]
         },
-        { title: "Best Sellers", link: "/product/product-shop/best-sellers" },
         {
-          title: "Combo Products",
-          link: "/product/product-shop/combo-product"
+          title: "Shop by Recipient",
+          subItems: [
+            {
+              name: "For her",
+              link: "/product/product-shop/gift-for-men/men-rings"
+            },
+            {
+              name: "For him",
+              link: "/product/product-shop/gift-for-men/men-necklace"
+            },
+            {
+              name: "Couple",
+              link: "/product/product-shop/gift-for-men/men-rings"
+            },
+            {
+              name: "Mother",
+              link: "/product/product-shop/gift-for-men/men-necklace"
+            },
+            {
+              name: "Sister",
+              link: "/product/product-shop/gift-for-men/men-rings"
+            },
+            {
+              name: "Friend",
+              link: "/product/product-shop/gift-for-men/men-necklace"
+            },
+            {
+              name: "Kids",
+              link: "/product/product-shop/gift-for-men/men-rings"
+            }
+          ]
         },
-        { title: "Just Arrived", link: "/product/product-shop/just-arrived" },
-        { title: "Watch Charms", link: "/product/product-shop/watch-charms" }
+        {
+          title: "Grand Festive Sale",
+          link: "/product/product-shop/gift-for-men/men-rings"
+        }
       ]
     }
   ];
@@ -196,7 +384,8 @@ export default function Navbar() {
   return (
     <div className="w-full fixed top-0 left-0 right-0 z-50 bg-white">
       <div className="bg-red-100 text-center py-2 text-sm">
-        Mumbai based. Delivery time 2 to 6 days. Buy 2 Products and get 10% off.
+        Ahmedabad based. Delivery time 2 to 6 days. Buy 2 Products and get 10%
+        off.
       </div>
       <header className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">

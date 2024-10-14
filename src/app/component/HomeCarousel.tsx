@@ -5,11 +5,11 @@ import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-  "/img/banner/earcuff.jpg",
-  "/img/carousel/carousel-2.jpg",
-  "/img/carousel/carousel-3.jpg",
-  "/img/carousel/carousel-4.jpg",
-  "/img/carousel/carousel-5.jpg"
+  "/img/banner1.jpg",
+  "/img/banner2.jpg",
+  "/img/banner3.jpg",
+  "/img/banner4.jpg",
+  "/img/banner5.jpg"
 ];
 
 export default function HomeCarpusel() {

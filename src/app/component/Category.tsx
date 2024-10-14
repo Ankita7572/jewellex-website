@@ -8,39 +8,46 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const categories = [
-  { name: "Cuffs", image: "/img/jewelCarousel/jew1.jpg" },
-  { name: "Earings", image: "/img/jewelCarousel/jew2.jpg" },
-  { name: "Wrap Bracelets", image: "/img/jewelCarousel/jew3.jpg" },
-  { name: "Charm Bracelets", image: "/img/jewelCarousel/jew4.jpg" },
-  { name: "Cuffs", image: "/img/jewelCarousel/jew1.jpg" },
-  { name: "Earings", image: "/img/jewelCarousel/jew2.jpg" },
-  { name: "Wrap Bracelets", image: "/img/jewelCarousel/jew3.jpg" },
-  { name: "Charm Bracelets", image: "/img/jewelCarousel/jew4.jpg" }
+  { name: "Anklets", image: "/img/anklets.jpg" },
+  { name: "Earrings", image: "/img/earring.jpg" },
+  { name: "Bracelets", image: "/img/bracelets.jpg" },
+  { name: "Anklets", image: "/img/anklets.jpg" },
+  { name: "Earrings", image: "/img/earring.jpg" },
+  { name: "Bracelets", image: "/img/bracelets.jpg" },
+  { name: "Anklets", image: "/img/anklets.jpg" },
+  { name: "Earrings", image: "/img/earring.jpg" },
+  { name: "Bracelets", image: "/img/bracelets.jpg" },
+  { name: "Anklets", image: "/img/anklets.jpg" },
+  { name: "Earrings", image: "/img/earring.jpg" },
+  { name: "Bracelets", image: "/img/bracelets.jpg" },
+  { name: "Anklets", image: "/img/anklets.jpg" },
+  { name: "Earrings", image: "/img/earring.jpg" },
+  { name: "Bracelets", image: "/img/bracelets.jpg" }
 ];
 
 export default function JewelryCarousel() {
   const sliderRef = React.useRef<Slider | null>(null);
 
   const settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 6,
+    slidesToShow: 9,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 7,
           slidesToScroll: 1
         }
       },
       {
         breakpoint: 640,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 4,
           slidesToScroll: 1
         }
       }
@@ -51,11 +58,11 @@ export default function JewelryCarousel() {
   const prevSlide = () => sliderRef.current?.slickPrev();
 
   return (
-    <div className="relative w-full mt-10 max-w-[1200px] mx-auto px-4 py-8">
+    <div className="relative w-full mt-10 max-w-[1240px] mx-auto px-4 py-8">
       <Slider ref={sliderRef} {...settings}>
         {categories.map((category, index) => (
           <div key={index} className="text-center">
-            <div className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-40 lg:h-40 rounded-full overflow-hidden mb-2 mx-auto">
+            <div className="relative w-20 h-24 sm:w-20 sm:h-24 md:w-24 md:h-28 lg:w-32 lg:h-36 rounded-lg overflow-hidden mb-2 mx-auto">
               <Image
                 src={category.image}
                 alt={category.name}
