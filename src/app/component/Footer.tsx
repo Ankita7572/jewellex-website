@@ -37,12 +37,12 @@ export default function Footer() {
               About the shop
             </h2>
             <p className="flex items-center">
-              <MapPin className="mr-2 h-5 w-5 text-teal-500" /> Mumbai based
+              <MapPin className="mr-2 h-5 w-5 text-teal-500" /> Ahmedabad based
             </p>
             <p>Legal Name- Harsh Ashwin Gala</p>
             <p className="flex items-center">
               <Mail className="mr-2 h-5 w-5 text-teal-500" />
-              hello@iblamebeads.com
+              jewellex@gmail.com
             </p>
             <p className="flex items-center">
               <Phone className="mr-2 h-5 w-5 text-teal-500" />
@@ -53,10 +53,10 @@ export default function Footer() {
           {/* Address */}
           <div className="space-y-4">
             <h2 className="text-xl font-semibold text-gray-800">Address</h2>
-            <p>Shop no. 8, Dastoorwadi,</p>
-            <p>opposite Hotel Avon Ruby,</p>
-            <p>MMGS Marg, Dadar east,</p>
-            <p>Mumbai 400014.</p>
+            <p>743/4959 GHB</p>
+            <p>Near shriji English school,</p>
+            <p>patelwadi ,Bapunagar</p>
+            <p>Ahmedabad.</p>
           </div>
 
           {/* Quick Links */}
